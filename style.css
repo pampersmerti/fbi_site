@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.fbilogo {
+  height: 100px;
+  width: 100px;
+}
+.text_navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
