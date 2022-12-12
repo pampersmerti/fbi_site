@@ -8,7 +8,7 @@ header {
   width: 100vw;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  
 }
 .fbilogo {
   height: 100px;
@@ -19,7 +19,43 @@ header {
   justify-content: space-between;
   width: 300px;
   align-items: center;
+
+ 
 }
 .navigation {
   display: flex;
+  margin-right: 50px;
+  
+}
+.textcolor{
+  color: white;
+  text-decoration: none;
+}
+body{
+  background: url("./img/main_img.jpg") no-repeat center ;
+ 
+}
+
+.main-fbi{
+  height: 900px;
+}
+
+.active_link{
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+
+.textcolor:hover{
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+.signin{
+  background-color: transparent;
+}
+.login{
+background-color: transparent;
+color: bisque;
+}
+.password{
+
 }
