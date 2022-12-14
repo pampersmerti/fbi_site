@@ -1,85 +1,80 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  header {
-    background-color: black;
-    height: 100px;
-    width: 100vw;
-    display: flex;
-    justify-content: space-between;
-    
-  }
-  .fbilogo {
-    height: 100px;
-    width: 100px;
-  }
-  .text_navigation {
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    align-items: center;
-  
-   
-  }
-  .navigation {
-    display: flex;
-    margin-right: 50px;
-    
-  }
-  .textcolor{
-    color: white;
-    text-decoration: none;
-  }
-  body{
-    background: url("./main_img.jpg") no-repeat center ;
-   
-  }
-  
-  .main-fbi{
-    height: 900px;
-  }
-  
-  .active_link{
-    text-decoration: underline;
-    color: blanchedalmond;
-  }
-  
-  .textcolor:hover{
-    text-decoration: underline;
-    color: blanchedalmond;
-  }
-  .signin{
-    background-color: transparent;
-  }
-  .logins{
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: black;
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+.fbilogo {
+  height: 100px;
+  width: 100px;
+}
+.text_navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+  margin-right: 50px;
+}
+.textcolor {
+  color: white;
+  text-decoration: none;
+}
+body {
+  background: url("./img/main_img.jpg") no-repeat center;
+}
+
+.main-fbi {
+  height: 900px;
+}
+
+.active_link {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+
+.textcolor:hover {
+  text-decoration: underline;
+  color: blanchedalmond;
+}
+.signin {
+  background-color: transparent;
+}
+.logins {
   background-color: transparent;
   color: bisque;
-  }
-  .passwords{
-    background-color: transparent;
-    color: bisque;
-  }
-  .taps{
-display: flex;
-justify-content: center;
-align-items: center;
-    width: 100px;
-    height: 35px;
-   
-    background-color: rgb(237, 202, 159);
- border-radius: 10px;
- 
-  }
-  .tap{
-    cursor: pointer;
-    margin: 0px 0 0px 65px;
-  }
- .login{
-    padding: 577px 0px 0px 599px
-
- }
- .inputs{
-    padding: 12px;
-    
- }
+}
+.passwords {
+  background-color: transparent;
+  color: bisque;
+}
+.taps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 35px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+.taps:hover {
+  cursor: pointer;
+  background-color: rgb(237, 202, 159);
+}
+.tap {
+  cursor: pointer;
+  margin: 0px 0 0px 65px;
+}
+.login {
+  padding: 577px 0px 0px 599px;
+}
+.inputs {
+  padding: 12px;
+}
